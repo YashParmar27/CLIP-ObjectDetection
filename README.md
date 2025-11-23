@@ -30,6 +30,8 @@ I built a full-stack application to demonstrate the pipeline:
 * Inputs for custom text-prompts
 * Three main tabs - (Predict Media, Add Model, Live Camera)
 
+![Tabs](assets/tabs.png)
+
 ### Backend - Flask
 * CLIP embedding generation for images & text
 * YOLO model storage and loading
@@ -42,6 +44,9 @@ I built a full-stack application to demonstrate the pipeline:
 
 Users can upload images and provide any number of text prompts.
 The system computes CLIP similarity scores and returns the most likely prompts present in the image with an associated probability score.
+
+![Uploading Media](assets/predict_image.png)
+![Predictions](assets/predictions.png)
 
 2. Add Model
 
