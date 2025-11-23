@@ -61,9 +61,9 @@ There is also an option to enter text prompts to make predictions on the live fr
 
 ### **1. Clone the Repository**
 
-`git clone <your-repo-url>`
+`git clone https://github.com/YashParmar27/CLIP-ObjectDetection.git`
 
-`cd <your-project-folder>`
+`cd CLIP-ObjectDetection`
 
 ### **2. Backend setup (Flask)**
 
