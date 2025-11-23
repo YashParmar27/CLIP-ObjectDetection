@@ -1,0 +1,11 @@
+input_file: input/image_urls.txt
+models:
+  face_detection: models/face_detection_best.pt
+output:
+  confidence: 0.3
+  save_dir: output/inference
+text_prompts:
+  face_detection:
+  - A photo of a person's face
+
+ 
