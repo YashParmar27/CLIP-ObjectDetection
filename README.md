@@ -56,3 +56,33 @@ Users can upload YOLO model weights, along with the associated text prompts to b
 
 A real-time webcam inference view where the uploaded models are used to draw inference. 
 There is also an option to enter text prompts to make predictions on the live frames.
+
+## Installation
+
+### **1. Clone the Repository**
+
+`git clone <your-repo-url>`
+
+`cd <your-project-folder>`
+
+### **2. Backend setup (Flask)**
+
+Use `pip install -r requirements.txt` to install dependencies
+
+### **3. Run the Flask Server**
+
+flask run
+
+### **4. Frontend Setup**
+
+Run the following commands:
+
+```bash
+cd app
+npm install
+npm start
+```
+
+### **Important Note**
+
+Please ensure to enter text-prompts and press submit before uploading media for inference!
