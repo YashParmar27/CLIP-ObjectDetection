@@ -50,4 +50,4 @@ Users can upload YOLO model weights, along with the associated text prompts to b
 3. Live Camera
 
 A real-time webcam inference view where the uploaded models are used to draw inference. 
-There is also an option to enter text prompts to make predictions on the live framwes.
+There is also an option to enter text prompts to make predictions on the live frames.
